@@ -1,0 +1,20 @@
+{
+  "title" : "angularnodeexpressstarter",
+  "server" : {
+    "port" : "3000",
+    "errorView" : "error.view.ejs",
+    "indexView" : "index.view.ejs"
+  },
+  "express" : {
+    "viewRelativeDir" : "../../",
+    "staticRelativeDir" : "../../",
+    "static" : "dist",
+    "views" : "dist",
+    "viewEngine" : "ejs"
+  },
+  "logger" : {
+    "env" : "dev"
+  },
+  "apiRoute" : "/api/",
+  "fileUploadDest" : "C:/BCheks/private-git-repo/AngularNodeExpressStarter/"
+}
